@@ -1,4 +1,4 @@
-<img src="dhuit.jpg" align="right" />
+<img src="banner_uit.png" align="right" />
 
 # CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT NÂNG CAO - CS523.O11
 > Giảng viên: Nguyễn Thanh Sơn<br>
