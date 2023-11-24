@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="728.0" prefWidth="1438.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UidesignController">
+    <stylesheets>
+        <URL value="@uidesign.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="729.0">
+         <children>
+            <Line endX="51.292877197265625" endY="-35.29290771484375" layoutX="229.0" layoutY="326.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+            <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="239.0" layoutY="336.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+            <Line endX="32.333343505859375" endY="-236.0" layoutX="249.0" layoutY="346.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+            <Line endX="22.333343505859375" endY="-306.0" layoutX="259.0" layoutY="356.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+            <Line endX="12.707122802734375" endY="-196.7071075439453" layoutX="269.0" layoutY="366.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+            <Line endX="2.707122802734375" endY="-145.29287719726562" layoutX="279.0" layoutY="376.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+            <Line endX="54.207122802734375" endY="-216.2071075439453" layoutX="228.0" layoutY="266.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+            <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="238.0" layoutY="276.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+            <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="248.0" layoutY="286.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+            <Line endX="23.000030517578125" endY="-186.0" layoutX="258.0" layoutY="296.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+            <Line endX="12.292877197265625" endY="-75.29287719726562" layoutX="268.0" layoutY="306.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+            <Line endX="4.207122802734375" endY="-145.2928924560547" layoutX="278.0" layoutY="316.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+            <Line endX="52.500030517578125" endY="-155.5" layoutX="229.0" layoutY="206.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+            <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="239.0" layoutY="216.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+            <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="249.0" layoutY="226.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+            <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="259.0" layoutY="236.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+            <Line endX="11.292877197265625" endY="-75.99998474121094" layoutX="269.0" layoutY="246.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+            <Line endX="2.333343505859375" endY="-146.0" layoutX="279.0" layoutY="256.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+            <Pane layoutX="51.0" layoutY="21.0" prefHeight="360.0" prefWidth="460.0">
+               <children>
+                  <Line endX="49.99998474121094" endY="-32.000003814697266" layoutX="79.0" layoutY="61.0" startX="-50.00000762939453" startY="27.99999237060547" strokeWidth="0.25" />
+                  <Line endX="40.70707702636719" endY="18.70709991455078" layoutX="89.0" layoutY="71.0" startX="-60.00000762939453" startY="17.99999237060547" strokeWidth="0.25" />
+                  <Line endX="29.999984741210938" endY="68.00001525878906" layoutX="99.0" layoutY="81.0" startX="-70.00000762939453" startY="7.999992370605469" strokeWidth="0.25" />
+                  <Line endX="19.999984741210938" endY="118.00001525878906" layoutX="109.0" layoutY="91.0" startX="-80.00000762939453" startY="-2.0000076293945312" strokeWidth="0.25" />
+                  <Line endX="9.999984741210938" endY="168.0" layoutX="119.0" layoutY="101.0" startX="-90.00000762939453" startY="-12.000007629394531" strokeWidth="0.25" />
+                  <Line endX="-1.52587890625E-5" endY="218.0" layoutX="129.0" layoutY="111.0" startX="-100.00000762939453" startY="-22.00000762939453" strokeWidth="0.25" />
+                  <Line endX="53.000030517578125" endY="325.0" layoutX="177.0" layoutY="4.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="187.0" layoutY="14.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="197.0" layoutY="24.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="207.0" layoutY="34.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="217.0" layoutY="44.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.000030517578125" endY="215.0" layoutX="227.0" layoutY="54.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="53.000030517578125" endY="325.0" layoutX="278.0" layoutY="4.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="288.0" layoutY="14.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="298.0" layoutY="24.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="308.0" layoutY="34.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="318.0" layoutY="44.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.000030517578125" endY="215.0" layoutX="328.0" layoutY="54.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="389.0" layoutY="74.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="399.0" layoutY="84.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="409.0" layoutY="94.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="419.0" layoutY="104.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="49.99998474121094" endY="-32.000003814697266" layoutX="78.0" layoutY="121.0" startX="-50.00000762939453" startY="27.99999237060547" strokeWidth="0.25" />
+                  <Line endX="40.70707702636719" endY="18.70709991455078" layoutX="88.0" layoutY="131.0" startX="-60.00000762939453" startY="17.99999237060547" strokeWidth="0.25" />
+                  <Line endX="29.999984741210938" endY="68.00001525878906" layoutX="98.0" layoutY="141.0" startX="-70.00000762939453" startY="7.999992370605469" strokeWidth="0.25" />
+                  <Line endX="19.999984741210938" endY="118.00001525878906" layoutX="108.0" layoutY="151.0" startX="-80.00000762939453" startY="-2.0000076293945312" strokeWidth="0.25" />
+                  <Line endX="9.999984741210938" endY="168.0" layoutX="118.0" layoutY="161.0" startX="-90.00000762939453" startY="-12.000007629394531" strokeWidth="0.25" />
+                  <Line endX="1.7070770263671875" endY="-141.5" layoutX="128.0" layoutY="171.0" startX="-100.00000762939453" startY="-22.00000762939453" strokeWidth="0.25" />
+                  <Line endX="49.99998474121094" endY="-32.000003814697266" layoutX="79.0" layoutY="181.0" startX="-50.00000762939453" startY="27.99999237060547" strokeWidth="0.25" />
+                  <Line endX="40.70707702636719" endY="18.70709991455078" layoutX="89.0" layoutY="191.0" startX="-60.00000762939453" startY="17.99999237060547" strokeWidth="0.25" />
+                  <Line endX="29.999984741210938" endY="68.00001525878906" layoutX="99.0" layoutY="201.0" startX="-70.00000762939453" startY="7.999992370605469" strokeWidth="0.25" />
+                  <Line endX="19.999984741210938" endY="118.00001525878906" layoutX="109.0" layoutY="211.0" startX="-80.00000762939453" startY="-2.0000076293945312" strokeWidth="0.25" />
+                  <Line endX="9.499984741210938" endY="-191.5" layoutX="119.0" layoutY="221.0" startX="-90.00000762939453" startY="-12.000007629394531" strokeWidth="0.25" />
+                  <Line endX="1.4141693115234375" endY="-140.58578491210938" layoutX="129.0" layoutY="231.0" startX="-100.00000762939453" startY="-22.00000762939453" strokeWidth="0.25" />
+                  <Line endX="49.99998474121094" endY="-32.000003814697266" layoutX="79.0" layoutY="241.0" startX="-50.00000762939453" startY="27.99999237060547" strokeWidth="0.25" />
+                  <Line endX="40.70707702636719" endY="18.70709991455078" layoutX="89.0" layoutY="251.0" startX="-60.00000762939453" startY="17.99999237060547" strokeWidth="0.25" />
+                  <Line endX="29.999984741210938" endY="68.00001525878906" layoutX="99.0" layoutY="261.0" startX="-70.00000762939453" startY="7.999992370605469" strokeWidth="0.25" />
+                  <Line endX="19.999984741210938" endY="-182.0" layoutX="109.0" layoutY="271.0" startX="-80.00000762939453" startY="-2.0000076293945312" strokeWidth="0.25" />
+                  <Line endX="12.121261596679688" endY="-131.2928924560547" layoutX="119.0" layoutY="281.0" startX="-90.00000762939453" startY="-12.000007629394531" strokeWidth="0.25" />
+                  <Line endX="1.4141693115234375" endY="-261.5" layoutX="129.0" layoutY="291.0" startX="-100.00000762939453" startY="-22.00000762939453" strokeWidth="0.25" />
+                  <Line endX="42.707122802734375" endY="255.70712280273438" layoutX="389.0" layoutY="14.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="399.0" layoutY="24.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="409.0" layoutY="34.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="419.0" layoutY="44.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="52.499969482421875" endY="-35.000003814697266" layoutX="177.0" layoutY="64.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="187.0" layoutY="74.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="197.0" layoutY="84.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="207.0" layoutY="94.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="217.0" layoutY="104.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.000030517578125" endY="215.0" layoutX="227.0" layoutY="114.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="54.207122802734375" endY="-34.75000762939453" layoutX="177.0" layoutY="124.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="187.0" layoutY="134.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="197.0" layoutY="144.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="207.0" layoutY="154.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="217.0" layoutY="164.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="3.500030517578125" endY="-144.5" layoutX="227.0" layoutY="174.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="389.0" layoutY="134.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="399.0" layoutY="144.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="409.0" layoutY="154.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="13.707122802734375" endY="-74.29290008544922" layoutX="419.0" layoutY="164.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="389.0" layoutY="195.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="399.0" layoutY="204.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.414215087890625" endY="-64.64643859863281" layoutX="409.0" layoutY="214.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.707122802734375" endY="-134.29290771484375" layoutX="419.0" layoutY="224.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="389.0" layoutY="255.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="32.707122802734375" endY="-55.292877197265625" layoutX="399.0" layoutY="265.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="22.707122802734375" endY="-125.29287719726562" layoutX="409.0" layoutY="275.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.707122802734375" endY="-196.7071075439453" layoutX="419.0" layoutY="285.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="43.707122802734375" endY="-226.7071075439453" layoutX="388.0" layoutY="315.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="34.707122802734375" endY="-175.29287719726562" layoutX="398.0" layoutY="325.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.707122802734375" endY="-125.29287719726562" layoutX="408.0" layoutY="335.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="13.707122802734375" endY="-75.29287719726562" layoutX="418.0" layoutY="345.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="53.500030517578125" endY="-34.50000762939453" layoutX="278.0" layoutY="64.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="288.0" layoutY="74.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="298.0" layoutY="84.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="308.0" layoutY="94.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="318.0" layoutY="104.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.000030517578125" endY="215.0" layoutX="328.0" layoutY="114.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="52.292877197265625" endY="-94.5" layoutX="278.0" layoutY="124.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="288.0" layoutY="134.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="298.0" layoutY="144.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="308.0" layoutY="154.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.000030517578125" endY="165.00001525878906" layoutX="318.0" layoutY="164.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.292877197265625" endY="-84.29290008544922" layoutX="328.0" layoutY="174.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="52.999969482421875" endY="-35.14646911621094" layoutX="278.0" layoutY="185.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="288.0" layoutY="195.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="298.0" layoutY="205.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="23.000030517578125" endY="115.00001525878906" layoutX="308.0" layoutY="215.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.292877197265625" endY="-135.29290771484375" layoutX="318.0" layoutY="225.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="3.500030517578125" endY="-205.5" layoutX="328.0" layoutY="235.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="53.500030517578125" endY="-214.5" layoutX="278.0" layoutY="244.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="288.0" layoutY="254.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.000030517578125" endY="64.99999237060547" layoutX="298.0" layoutY="264.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="22.292877197265625" endY="-184.29290771484375" layoutX="308.0" layoutY="274.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="13.707122802734375" endY="-134.2928924560547" layoutX="318.0" layoutY="284.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.999969482421875" endY="-83.29289245605469" layoutX="328.0" layoutY="294.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+                  <Line endX="52.292877197265625" endY="-35.29290771484375" layoutX="278.0" layoutY="306.0" startX="-48.00001525878906" startY="24.999996185302734" strokeWidth="0.25" />
+                  <Line endX="43.000030517578125" endY="14.999996185302734" layoutX="288.0" layoutY="316.0" startX="-58.00001525878906" startY="14.999996185302734" strokeWidth="0.25" />
+                  <Line endX="33.500030517578125" endY="-296.5" layoutX="298.0" layoutY="326.0" startX="-68.00001525878906" startY="4.999996185302734" strokeWidth="0.25" />
+                  <Line endX="22.292877197265625" endY="-246.2928924560547" layoutX="308.0" layoutY="336.0" startX="-78.00001525878906" startY="-5.000003814697266" strokeWidth="0.25" />
+                  <Line endX="12.999969482421875" endY="-196.14645385742188" layoutX="318.0" layoutY="346.0" startX="-88.00001525878906" startY="-15.000003814697266" strokeWidth="0.25" />
+                  <Line endX="2.499969482421875" endY="-145.5" layoutX="328.0" layoutY="356.0" startX="-98.00001525878906" startY="-25.000003814697266" strokeWidth="0.25" />
+               </children>
+            </Pane>
+            <Circle fx:id="layer11" fill="WHITE" layoutX="180.0" layoutY="110.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer12" fill="WHITE" layoutX="180.0" layoutY="170.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer13" fill="WHITE" layoutX="180.0" layoutY="230.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer14" fill="WHITE" layoutX="180.0" layoutY="290.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer21" fill="WHITE" layoutX="280.0" layoutY="110.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer22" fill="WHITE" layoutX="280.0" layoutY="170.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer23" fill="WHITE" layoutX="280.0" layoutY="230.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer24" fill="WHITE" layoutX="280.0" layoutY="290.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer31" fill="WHITE" layoutX="380.0" layoutY="110.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer32" fill="WHITE" layoutX="380.0" layoutY="170.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer33" fill="WHITE" layoutX="380.0" layoutY="230.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer34" fill="WHITE" layoutX="380.0" layoutY="290.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="output0" fill="WHITE" layoutX="480.0" layoutY="110.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="output1" fill="WHITE" layoutX="480.0" layoutY="170.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="output2" fill="WHITE" layoutX="480.0" layoutY="230.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="output3" fill="WHITE" layoutX="480.0" layoutY="290.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer30" fill="WHITE" layoutX="380.0" layoutY="50.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer35" fill="WHITE" layoutX="380.0" layoutY="350.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer20" fill="WHITE" layoutX="280.0" layoutY="50.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer25" fill="WHITE" layoutX="281.0" layoutY="350.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="input0" fill="WHITE" layoutX="80.0" layoutY="110.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="input1" fill="WHITE" layoutX="80.0" layoutY="170.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="input2" fill="WHITE" layoutX="80.0" layoutY="230.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="input3" fill="WHITE" layoutX="80.0" layoutY="290.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer10" fill="WHITE" layoutX="180.0" layoutY="50.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="layer15" fill="WHITE" layoutX="180.0" layoutY="350.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Label fx:id="inputValue0" alignment="CENTER" contentDisplay="CENTER" layoutX="64.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="inputValue1" alignment="CENTER" contentDisplay="CENTER" layoutX="64.0" layoutY="160.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="inputValue2" alignment="CENTER" contentDisplay="CENTER" layoutX="64.0" layoutY="220.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="inputValue3" alignment="CENTER" contentDisplay="CENTER" layoutX="64.0" layoutY="280.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="layerValue10" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="40.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip fx:id="tooltip10" text="Layer 1 - Neuron 0" />
+               </tooltip></Label>
+            <Label fx:id="layerValue11" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip fx:id="tooltip11" text="Layer 1 - Neuron 1" />
+               </tooltip></Label>
+            <Label fx:id="layerValue12" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="160.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue13" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="220.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue14" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="280.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue15" alignment="CENTER" contentDisplay="CENTER" layoutX="164.0" layoutY="340.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue20" alignment="CENTER" contentDisplay="CENTER" layoutX="265.0" layoutY="40.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip fx:id="tooltip20" text="Layer 2 - Neuron 0" />
+               </tooltip></Label>
+            <Label fx:id="layerValue21" alignment="CENTER" contentDisplay="CENTER" layoutX="265.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip fx:id="tooltip21" text="Layer 2 - Neuron 1" />
+               </tooltip></Label>
+            <Label fx:id="layerValue22" alignment="CENTER" contentDisplay="CENTER" layoutX="265.0" layoutY="160.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="solidLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="516.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="solid" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label fx:id="horizontalLabel" contentDisplay="CENTER" layoutX="516.0" layoutY="160.0" prefHeight="20.0" prefWidth="83.0" text="horizontal" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label fx:id="verticalLabel" contentDisplay="CENTER" layoutX="516.0" layoutY="220.0" prefHeight="20.0" prefWidth="64.0" text="vertical" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label fx:id="diagonalLabel" contentDisplay="CENTER" layoutX="516.0" layoutY="280.0" prefHeight="20.0" prefWidth="71.0" text="diagonal" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Circle fx:id="expected0" fill="WHITE" layoutX="665.0" layoutY="110.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="expected1" fill="WHITE" layoutX="665.0" layoutY="170.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="expected2" fill="WHITE" layoutX="665.0" layoutY="230.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Circle fx:id="expected3" fill="WHITE" layoutX="665.0" layoutY="290.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Label fx:id="layerValue23" alignment="CENTER" contentDisplay="CENTER" layoutX="264.0" layoutY="220.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue24" alignment="CENTER" contentDisplay="CENTER" layoutX="264.0" layoutY="280.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue25" alignment="CENTER" contentDisplay="CENTER" layoutX="265.0" layoutY="340.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue30" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="40.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <tooltip>
+                  <Tooltip fx:id="tooltip30" text="Layer 3 - Neuron 0" />
+               </tooltip>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue31" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <tooltip>
+                  <Tooltip fx:id="tooltip31" text="Layer 3 - Neuron 1" />
+               </tooltip></Label>
+            <Label fx:id="layerValue32" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="160.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue33" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="220.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue34" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="280.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="layerValue35" alignment="CENTER" contentDisplay="CENTER" layoutX="364.0" layoutY="340.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="outputValue0" alignment="CENTER" contentDisplay="CENTER" layoutX="464.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="outputValue1" alignment="CENTER" contentDisplay="CENTER" layoutX="464.0" layoutY="160.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="outputValue2" alignment="CENTER" contentDisplay="CENTER" layoutX="464.0" layoutY="220.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="outputValue3" alignment="CENTER" contentDisplay="CENTER" layoutX="464.0" layoutY="280.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="expectedValue0" alignment="CENTER" contentDisplay="CENTER" layoutX="649.0" layoutY="100.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="expectedValue1" alignment="CENTER" contentDisplay="CENTER" layoutX="649.0" layoutY="160.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="expectedValue2" alignment="CENTER" contentDisplay="CENTER" layoutX="649.0" layoutY="220.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="expectedValue3" alignment="CENTER" contentDisplay="CENTER" layoutX="649.0" layoutY="280.0" prefHeight="20.0" prefWidth="32.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="learningRateLabel1" layoutX="560.0" layoutY="13.0" text="Iteration:">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="currentIterLabel" layoutX="649.0" layoutY="13.0" prefHeight="27.0" prefWidth="71.0" text="0">
+               <font>
+                  <Font name="System Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <LineChart fx:id="errorChart" layoutX="783.0" layoutY="14.0" legendVisible="false" prefHeight="217.0" prefWidth="321.0" title="Mean Squared Error">
+        <xAxis>
+          <CategoryAxis side="BOTTOM">
+               <tickLabelFont>
+                  <Font size="6.0" />
+               </tickLabelFont></CategoryAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT">
+               <tickLabelFont>
+                  <Font name="System Bold" size="15.0" />
+               </tickLabelFont></NumberAxis>
+        </yAxis>
+      </LineChart>
+      <Button fx:id="runButton" disable="true" layoutX="206.0" layoutY="446.0" mnemonicParsing="false" onAction="#startRunning" text="Run">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="stopButton" disable="true" layoutX="269.0" layoutY="446.0" mnemonicParsing="false" onAction="#stopRunning" prefHeight="9.0" prefWidth="55.0" text="Stop">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="learningRateLabel" layoutX="353.0" layoutY="423.0" text="Learning Rate:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="iterationLabel" layoutX="353.0" layoutY="450.0" text="Number of Iterations:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="MSELabel" layoutX="783.0" layoutY="231.0" text="MSE   =   ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="MSEValue" layoutX="863.0" layoutY="231.0" prefHeight="27.0" prefWidth="220.0" text="null">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="learningRateChoice" layoutX="545.0" layoutY="424.0" prefHeight="25.0" prefWidth="83.0" promptText="0.05" />
+      <Button fx:id="chooseFileButton" layoutX="20.0" layoutY="446.0" mnemonicParsing="false" onAction="#ChooseData" text="Choose data file...">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Pane fx:id="testPane" disable="true" layoutX="771.0" layoutY="258.0" prefHeight="241.0" prefWidth="369.0">
+         <children>
+            <Button fx:id="calculateButton" layoutX="15.0" layoutY="183.0" mnemonicParsing="false" onAction="#calculateTest" prefHeight="21.0" prefWidth="115.0" text="Calculate">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="testInput0" alignment="CENTER" layoutX="14.0" layoutY="50.0" prefHeight="60.0" prefWidth="60.0" promptText="pixel 0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testInput1" alignment="CENTER" layoutX="74.0" layoutY="50.0" prefHeight="60.0" prefWidth="60.0" promptText="pixel 1">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testInput2" alignment="CENTER" layoutX="14.0" layoutY="110.0" prefHeight="60.0" prefWidth="60.0" promptText="pixel 2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="testInput3" alignment="CENTER" layoutX="74.0" layoutY="110.0" prefHeight="60.0" prefWidth="60.0" promptText="pixel 3">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="115.0" text="Test">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="testOutput0" layoutX="170.0" layoutY="50.0" mnemonicParsing="false" text="Solid">
+               <toggleGroup>
+                  <ToggleGroup fx:id="expectingResult" />
+               </toggleGroup>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="testOutput1" layoutX="170.0" layoutY="80.0" mnemonicParsing="false" text="Horizontal" toggleGroup="$expectingResult">
+               <font>
+                  <Font size="14.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="testOutput2" layoutX="170.0" layoutY="110.0" mnemonicParsing="false" text="Vertical" toggleGroup="$expectingResult">
+               <font>
+                  <Font size="14.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="testOutput3" layoutX="170.0" layoutY="140.0" mnemonicParsing="false" text="Diagonal" toggleGroup="$expectingResult">
+               <font>
+                  <Font size="14.0" />
+               </font></RadioButton>
+         </children>
+      </Pane>
+      <TextField fx:id="iterationsChoice" layoutX="545.0" layoutY="451.0" prefHeight="20.0" prefWidth="83.0" promptText="1000" text="1000" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
