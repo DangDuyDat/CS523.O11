@@ -1,6 +1,10 @@
-<img src="banner_uit.png" align="right" />
+<img src="banner_uit.png" align="center" />
 
-# CẤU TRÚC DỮ LIỆU VÀ GIẢI THUẬT NÂNG CAO - CS523.O11
-> Giảng viên: Nguyễn Thanh Sơn<br>
-> Nhóm 16 - Chủ đề 7: Deep Neural Network
-> 
+# Cấu trúc dữ liệu và giải thuật nâng cao - CS523.O11
+ Giảng viên: Nguyễn Thanh Sơn<br>
+ Chủ đề 7: Deep Neural Network<br>
+ ## <strong>Nhóm thực hiện: Nhóm 16</strong>
+ Tên thành viên | Mã số sinh viên |
+ --- | --- |
+ Đặng Duy Đạt | 19520039 |
+ Lê Minh Hưng | 2052 |
